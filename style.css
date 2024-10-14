@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.heroimg {
+  margin-left: 208px;
+}
+.f-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f-btn {
+  padding: 10px 18px 5px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+
+  opacity: 0.8;
+}
+#hero {
+  height: 615px;
+  background-image: url("./img/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-content {
+  width: 685px;
+}
+.hero-content-hedding {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero-content-paragraph {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero-button {
+  text-align: center;
+}
+.btn {
+  width: 244px;
+  height: 65px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10;
+  padding: 21px 24px 21px 24px;
+  order: 1;
+  color: white;
+  margin: 32px 0px;
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+}
+
+/* Subject */
+
+.sub {
+  justify-content: center;
+}
+.sub-hed {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 35px;
+}
+.sub-pa {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* Subject-2 */
+
+#sub2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 75px;
+}
+.sub2-head {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sub2-pa {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sub2btn {
+  width: 150px;
+  height: 45px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 12px 20px 12px 20px;
+  text-decoration: none;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+
+/* Content video */
+#content-vid {
+  justify-content: center;
+  text-align: center;
+}
+.con-vi-head {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 30px;
+}
+.con-vi-pa {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#tube {
+  margin-top: 50px;
+}
+
+/* Skills */
+
+#skill {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#skill-iteam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+.iteam-p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+/* Next */
+#next {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Last Skills */
+.last-main {
+  margin-top: 50px;
+}
+.last-skill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding: 40px;
+}
+.last-skills-h {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.last-skills-p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* Last Banner */
+.last-banner {
+  background-image: url("/img/handshake.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-banner-h {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.last-banner-p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.input {
+  width: 548px;
+  height: 57px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 19px 20px 19px 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+}
+.btn22 {
+  width: 120px;
+  height: 57px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5;
+  padding: 20px;
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 16px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+
+
+/* Footer */
+#foo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.innn{
+  display: flex;
+  margin-top: 15px;
+}
